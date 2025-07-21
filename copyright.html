@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikshashree - Legal Pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f0f4f8 0%, #e0f7fa 100%);
+            color: #2a2a2a;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+        .legal-container {
+            background: white;
+            padding: 4rem 3.5rem;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15), 0 0 15px rgba(46, 204, 113, 0.1);
+            width: 100%;
+            max-width: 950px;
+            margin: 20px auto;
+            text-align: left;
+            animation: slideUpFade 1.2s ease-out;
+            border: 2px solid rgba(46, 204, 113, 0.2);
+            display: none;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        @media (max-width: 768px) {
+            .legal-container {
+                padding: 2rem 1.5rem;
+                margin: 10px;
+                border-radius: 15px;
+            }
+        }
+        @keyframes slideUpFade {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .legal-container h1 {
+            color: #2a2a2a;
+            margin-bottom: 2.5rem;
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: 3px solid #2ecc71;
+            padding-bottom: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 480px) {
+            .legal-container h1 {
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+        .legal-container h2 {
+            color: #2ecc71;
+            margin-top: 2.5rem;
+            font-size: 1.7rem;
+            font-weight: 600;
+            border-left: 5px solid #2ecc71;
+            padding-left: 1rem;
+        }
+        @media (max-width: 480px) {
+            .legal-container h2 {
+                font-size: 1.4rem;
+                margin-top: 2rem;
+            }
+        }
+        .legal-container p {
+            margin-bottom: 1.8rem;
+            color: #444;
+            font-size: 1.1rem;
+        }
+        @media (max-width: 480px) {
+            .legal-container p {
+                font-size: 1rem;
+            }
+        }
+        .legal-container ul {
+            margin-left: 3rem;
+            margin-bottom: 1.8rem;
+        }
+        .legal-container li {
+            margin-bottom: 1rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        .legal-container li:before {
+            content: "•";
+            color: #2ecc71;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        @media (max-width: 480px) {
+            .legal-container ul {
+                margin-left: 1.5rem;
+            }
+            .legal-container li {
+                padding-left: 1rem;
+            }
+        }
+        .legal-container a {
+            color: #2ecc71;
+            text-decoration: none;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        .legal-container a:hover {
+            color: #27ae60;
+            text-decoration: underline;
+            text-shadow: 0 0 5px rgba(46, 204, 113, 0.3);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3.5rem;
+            color: #666;
+            font-size: 1rem;
+            border-top: 2px solid #e0e0e0;
+            padding-top: 1.5rem;
+            font-weight: 500;
+        }
+        @media (max-width: 480px) {
+            .footer {
+                font-size: 0.9rem;
+                margin-top: 2rem;
+            }
+        }
+        .highlight {
+            background-color: #e6f3e6;
+            padding: 0.3rem 0.7rem;
+            border-radius: 8px;
+            color: #2ecc71;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        #back-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: #2ecc71;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border: 2px solid #2ecc71;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        #back-link:hover {
+            background-color: #2ecc71;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+        }
+        @media (max-width: 480px) {
+            #back-link {
+                padding: 0.4rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="copyright-page" class="legal-container">
+        <h1>Copyright Notice - Shikshashree</h1>
+        <p>Last Updated: July 07, 2025, 09:12 PM IST</p>
+        <p>All content on the Shikshashree website, encompassing an extensive array of intellectual assets such as textual content, high-resolution graphics, custom-designed logos, multimedia videos, audio recordings, interactive educational modules, downloadable PDF resources, proprietary software code, and meticulously crafted teaching materials, is the exclusive intellectual property of Shikshashree Educational Institution or its licensed content providers. This content is rigorously protected under a robust framework of international copyright laws, including the Berne Convention for the Protection of Literary and Artistic Works, and domestic regulations such as the Indian Copyright Act, 1957, as amended, along with its subsequent rules and judicial interpretations. The protection extends to all original works created by Shikshashree’s in-house educators, invited guest contributors, and third-party licensors, covering both digital formats (e.g., web pages, e-learning platforms) and physical manifestations (e.g., printed materials distributed during events).</p>
+        <p>Unauthorized use, reproduction, distribution, adaptation, public performance, broadcasting, or display of any material from this site without explicit prior written consent from Shikshashree is strictly prohibited and constitutes a serious infringement of intellectual property rights. Such actions may trigger civil litigation seeking compensatory and punitive damages, statutory penalties of up to INR 2 lakh per infringement, and criminal prosecution under Section 63 of the Copyright Act, which may result in imprisonment for up to three years. Limited exceptions are permitted under fair use provisions for personal, non-commercial educational purposes, provided that full attribution is given to Shikshashree in the format "© 2025 Shikshashree Educational Institution. All rights reserved." and no commercial gain or derivative work is derived therefrom. For permission requests, licensing inquiries, clarification on usage rights, or negotiation of licensing agreements, please contact our legal team at <a href="mailto:legal@shikshashree.com">legal@shikshashree.com</a>. All requests will be reviewed within 10 business days, subject to the complexity of the request.</p>
+
+        <h2>Related Policies</h2>
+        <p>Delve deeper into our comprehensive legal framework by exploring the <a onclick="showPage('terms')">Terms of Use</a>, <a onclick="showPage('privacy')">Privacy Policy</a>, <a onclick="showPage('community')">Community Guidelines</a>, and <a onclick="showPage('data')">Data Protection Practices</a> for a thorough understanding of your rights, responsibilities, and our institutional commitments to transparency and compliance.</p>
+
+        <div class="footer">
+            <p>© 2025 Shikshashree Educational Institution. All rights reserved.</p>
+        </div>
+    </div>
+
+    <div id="terms-page" class="legal-container">
+        <h1>Terms of Use - Shikshashree</h1>
+        <p>Last Updated: July 07, 2025, 09:12 PM IST</p>
+        <p>By accessing, browsing, registering on, or utilizing the Shikshashree website, you enter into a legally binding agreement with Shikshashree Educational Institution, governed by the following comprehensive terms and conditions. These terms delineate your rights, obligations, and the legal framework for interacting with our advanced educational platform, and they are subject to periodic updates to reflect evolving legal, technical, or operational requirements:</p>
+        <ul>
+            <li><strong>Acceptable Use:</strong> The website must not be used for any illegal, unethical, or disruptive activities, including but not limited to hacking into secure areas, distributing malware or viruses, conducting phishing campaigns, scraping data for commercial purposes, spamming other users, or deploying automated bots, crawlers, or scripts to manipulate content, access restricted resources, or overload servers. Any action that compromises the security, integrity, availability, or performance of the site—such as Distributed Denial of Service (DDoS) attacks, unauthorized data extraction, or interference with other users’ experiences—is strictly prohibited and may result in immediate account termination, IP banning, and legal action under the Information Technology Act, 2000, and other applicable laws.</li>
+            <li><strong>User-Generated Content:</strong> All reviews, comments, forum posts, discussion board entries, uploaded files (e.g., assignments, media), and other user-submitted materials must comply with our <a onclick="showPage('community')">Community Guidelines</a>. Shikshashree reserves the unilateral right to pre-moderate, edit, delete, permanently remove, or flag content that is offensive, defamatory, misleading, plagiarized, infringes on intellectual property rights, contains explicit material, or violates any local or international law. Users retain ownership of their content but grant Shikshashree a non-exclusive, royalty-free license to use, display, and distribute it for platform purposes. Users are solely liable for the accuracy, legality, and originality of their submissions.</li>
+            <li><strong>Service Modifications:</strong> Shikshashree retains the sole discretion to modify, suspend, or discontinue any website features, online courses, interactive tools, virtual classrooms, or services at any time without prior notice. This includes content updates, removal of outdated materials, server maintenance, or feature deprecation due to technological advancements. Users are encouraged to review these terms and any posted announcements periodically, and Shikshashree shall not be held liable for any inconvenience, loss of access, data loss, academic disruption, or financial impact resulting from such changes, to the maximum extent permitted by Indian law.</li>
+            <li><strong>Intellectual Property:</strong> All trademarks, service marks, logos, brand identifiers, original content (e.g., lesson plans, quizzes, video lectures), and proprietary software are the sole property of Shikshashree or its licensors. Unauthorized use, including reproduction, adaptation, reverse engineering, commercial exploitation (e.g., selling course materials on third-party platforms), or creation of derivative works, is prohibited without express written permission, which may be subject to licensing fees, royalties, or contractual agreements. Attribution alone does not constitute authorization.</li>
+            <li><strong>Limitation of Liability:</strong> Shikshashree disclaims all liability for indirect, incidental, special, consequential, or punitive damages arising from website use, including but not limited to financial losses, academic setbacks, data corruption, missed opportunities, or reputational harm, even if such risks were previously communicated or foreseeable. Our liability is limited to the extent permitted by the Indian Contract Act, 1872, and other relevant statutes, and in no event shall it exceed the amount paid by you, if any, for accessing the site.</li>
+            <li><strong>Indemnification:</strong> You agree to defend, indemnify, and hold Shikshashree, its officers, directors, employees, agents, and affiliates harmless from any claims, damages, losses, legal costs (including reasonable attorney fees), or liabilities resulting from your breach of these terms, misuse of the platform, violation of third-party rights (e.g., copyright infringement, defamation), or unauthorized actions taken through your account, whether intentional or negligent.</li>
+            <li><strong>Governing Law:</strong> These terms are governed by and construed in accordance with the laws of India, including the Indian Contract Act, 1872, and the Information Technology Act, 2000. Any disputes arising from or related to these terms shall be exclusively resolved in the competent courts of [Your City/State], India, and you irrevocably submit to the personal jurisdiction of such courts, waiving any objections to venue or inconvenience.</li>
+            <li><strong>Termination:</strong> Shikshashree may terminate or suspend your account, access, or privileges immediately and without notice if you violate these terms, engage in prohibited activities, pose a security risk, or fail to comply with payment obligations (if applicable). Terminated users forfeit all rights to retained data, course progress, or submitted content, which may be deleted after 30 days unless otherwise required by law.</li>
+            <li><strong>Amendments:</strong> Shikshashree may update these terms periodically to reflect changes in legal requirements, technological advancements, or operational needs. Updated terms will be posted on this page with a revised "Last Updated" date. Continued use of the website after such updates constitutes your acceptance of the revised terms, and it is your responsibility to review them regularly.</li>
+        </ul>
+        <a id="back-link" onclick="showPage('copyright')">Back to Copyright Notice</a>
+    </div>
+
+    <div id="privacy-page" class="legal-container">
+        <h1>Privacy Policy - Shikshashree</h1>
+        <p>Last Updated: July 07, 2025, 09:12 PM IST</p>
+        <p>Shikshashree Educational Institution is deeply committed to protecting your privacy and ensuring the confidentiality, integrity, and security of your personal information. We collect, process, store, and manage data in strict accordance with the Information Technology Act, 2000, the (proposed) Digital Personal Data Protection Act, 2023, and other applicable international privacy standards (e.g., GDPR for non-Indian users). This policy provides a detailed explanation of how we handle your data:</p>
+        <ul>
+            <li><strong>Data Collection:</strong> We collect personal data such as full names, email addresses, phone numbers, postal addresses, educational qualifications, course enrollment details, payment information (if applicable), and usage data (e.g., pages visited, time spent, click patterns, device information) to facilitate account creation, course delivery, personalized learning experiences, and customer support. Optional data, such as profile pictures, social media links, or demographic details, may be collected with your explicit consent to enhance community features or marketing efforts.</li>
+            <li><strong>Data Usage:</strong> Information is used for account management (e.g., password resets), course delivery (e.g., progress tracking, certificate issuance), communication (e.g., newsletters, updates), targeted educational content (e.g., recommended courses), and internal analytics (e.g., user behavior trends). Anonymized and aggregated data may be used for research, improving platform functionality, or reporting to stakeholders, without identifying individual users.</li>
+            <li><strong>Data Sharing:</strong> We do not sell, rent, or trade your personal data to third parties for marketing purposes. Data may be shared with trusted service providers (e.g., payment gateways like Razorpay, cloud hosting services like AWS) under strict confidentiality agreements, or as required by law (e.g., court orders, government requests under the IT Act). International data transfers may occur to support global operations, but only with contractual safeguards ensuring compliance with Indian and recipient-country laws.</li>
+            <li><strong>Data Security:</strong> We employ a multi-layered security approach, including end-to-end encryption (e.g., TLS for data in transit), secure server infrastructure with regular penetration testing, access controls (e.g., multi-factor authentication, role-based access), and incident response protocols to protect your data from unauthorized access, loss, alteration, or breach. Our security measures are audited annually by certified third-party firms.</li>
+            <li><strong>Your Rights:</strong> You have the right to access, correct, update, restrict, or delete your personal data under Indian law. To exercise these rights, submit a written request with proof of identity to our Data Protection Officer at <a href="mailto:dpo@shikshashree.com">dpo@shikshashree.com</a>. Requests will be processed within 30 days, subject to verification and legal obligations (e.g., retention for tax purposes).</li>
+            <li><strong>Cookies and Tracking:</strong> We use cookies, web beacons, and similar technologies to enhance user experience, remember preferences, and analyze traffic. You can manage cookie preferences through your browser settings or opt out via our cookie consent banner. Essential cookies cannot be disabled as they are required for site functionality.</li>
+            <li><strong>Children’s Privacy:</strong> Shikshashree does not knowingly collect data from children under 13 without parental consent. Parents may request data deletion by contacting us.</li>
+        </ul>
+        <p>For an in-depth look at our technical and legal safeguards, refer to our <a onclick="showPage('data')">Data Protection Practices</a>.</p>
+        <a id="back-link" onclick="showPage('copyright')">Back to Copyright Notice</a>
+    </div>
+
+    <div id="community-page" class="legal-container">
+        <h1>Community Guidelines - Shikshashree</h1>
+        <p>Last Updated: July 07, 2025, 09:12 PM IST</p>
+        <p>Shikshashree fosters a respectful, inclusive, and collaborative online community where all users—students, educators, and visitors—can engage in meaningful educational discourse. These Community Guidelines establish the standards for interaction on our platform, and adherence is mandatory to maintain a safe and productive environment:</p>
+        <ul>
+            <li><strong>Respect and Inclusivity:</strong> Treat all users with dignity and respect. Harassment, bullying, hate speech, discriminatory language, or behavior based on race, ethnicity, gender, religion, sexual orientation, disability, or any other protected characteristic is strictly prohibited. Constructive criticism is encouraged, but personal attacks or derogatory remarks are not tolerated.</li>
+            <li><strong>Content Standards:</strong> All posts, reviews, comments, and shared materials must be relevant, educational, and appropriate for a diverse audience. Prohibited content includes explicit material (e.g., nudity, violence), misinformation, spam, promotional content without approval, or links to malicious sites. Educational content should be fact-based and sourced where applicable.</li>
+            <li><strong>Integrity and Authenticity:</strong> Do not engage in plagiarism, impersonation of others, or submission of fake reviews. All contributions must be original or properly attributed, and reviews must reflect genuine experiences with Shikshashree courses or services. Violations may lead to content removal and account suspension.</li>
+            <li><strong>Collaboration and Engagement:</strong> Encourage constructive feedback, peer learning, and collaborative projects. Off-topic discussions, trolling, or disruptive behavior (e.g., flooding threads) are not allowed. Users are expected to contribute to a positive learning environment.</li>
+            <li><strong>Enforcement:</strong> Shikshashree reserves the right to monitor content, issue warnings, temporarily suspend, or permanently ban users who violate these guidelines. Enforcement actions are at our sole discretion and may escalate to legal action if violations involve criminal activity (e.g., threats, fraud). Appeals can be submitted to <a href="mailto:support@shikshashree.com">support@shikshashree.com</a> within 7 days.</li>
+        </ul>
+        <p>Repeated or severe violations may result in permanent account termination, loss of access to purchased courses, and potential legal action if they infringe on copyrights, trademarks, or other rights protected under Indian law.</p>
+        <a id="back-link" onclick="showPage('copyright')">Back to Copyright Notice</a>
+    </div>
+
+    <div id="data-page" class="legal-container">
+        <h1>Data Protection Practices - Shikshashree</h1>
+        <p>Last Updated: July 07, 2025, 09:12 PM IST</p>
+        <p>Shikshashree Educational Institution is committed to complying with the Information Technology Act, 2000, the (proposed) Digital Personal Data Protection Act, 2023, and other relevant data protection regulations to ensure the highest standards of data security and privacy. Our data protection practices are designed to safeguard your information and are subject to regular audits. These practices include:</p>
+        <ul>
+            <li><strong>Data Minimization:</strong> We collect only the data strictly necessary for providing services, such as email addresses for account creation, course enrollment details for progress tracking, payment information for transaction processing, and usage data for analytics. Redundant or excessive data collection is avoided to reduce privacy risks.</li>
+            <li><strong>Data Storage:</strong> Personal data is stored on secure, ISO 27001-certified servers located within India, with backups in geographically diverse locations to ensure redundancy. Retention periods are aligned with legal requirements (e.g., 5 years for financial data under the Income Tax Act, 1961, 7 years for educational records) and deleted thereafter unless you consent to longer storage.</li>
+            <li><strong>Access Control:</strong> Access to personal data is restricted to authorized personnel only, enforced through multi-factor authentication (MFA), role-based access controls (RBAC), and regular access reviews. Employees are trained annually on data protection best practices, and access logs are monitored for suspicious activity.</li>
+            <li><strong>Breach Response:</strong> In the event of a data breach, Shikshashree will notify affected users within 72 hours as required by law, conduct a root cause analysis, implement containment measures, and provide remediation steps (e.g., password resets). A detailed incident report will be available upon request.</li>
+            <li><strong>International Data Transfers:</strong> Data may be transferred to trusted third-party providers (e.g., AWS, Google Cloud) outside India to support global operations (e.g., hosting, analytics), but only under strict contractual safeguards, including Standard Contractual Clauses (SCCs) compliant with Indian and recipient-country laws (e.g., EU GDPR).</li>
+            <li><strong>Compliance and Audits:</strong> We conduct quarterly internal audits and annual third-party assessments to ensure adherence to the Digital Personal Data Protection Act, 2023 (if enacted), ISO 27001 standards, and other frameworks. Compliance reports are available to regulatory authorities upon request.</li>
+            <li><strong>User Empowerment:</strong> Users can request data portability, correction, or deletion via our online portal or by emailing our Data Protection Officer at <a href="mailto:dpo@shikshashree.com">dpo@shikshashree.com</a>. Responses are provided within 30 days, subject to verification and legal retention obligations.</li>
+        </ul>
+        <p>For data-related concerns, technical inquiries, or to report a suspected breach, contact our Data Protection Officer at <a href="mailto:dpo@shikshashree.com">dpo@shikshashree.com</a> or call our helpline at +91-123-456-7890 (available 9 AM to 6 PM IST, Monday to Friday).</p>
+        <a id="back-link" onclick="showPage('copyright')">Back to Copyright Notice</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            showPage('copyright');
+        });
+
+        function showPage(pageId) {
+            const validPages = ['copyright', 'terms', 'privacy', 'community', 'data'];
+            if (!validPages.includes(pageId)) {
+                console.error('Invalid page ID:', pageId);
+                return;
+            }
+
+            const pages = document.getElementsByClassName('legal-container');
+            for (let page of pages) {
+                page.style.display = 'none';
+            }
+            document.getElementById(pageId + '-page').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
